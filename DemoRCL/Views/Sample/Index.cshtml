@@ -1,0 +1,13 @@
+﻿@{ 
+    Layout = "_layoutRCL";
+}
+<div style="direction:rtl">
+    سلام.این پیغام از RCL است
+</div>
+<div class="col-6">
+    <img src="/_content/DemoRCL/RCLImages/asp.jpg"/>
+</div>
+<form asp-action="GetName" asp-controller="sample" method="post">
+    <input type="text" name="name" value="" />
+    <input type="submit" value="ارسال" />
+</form>
